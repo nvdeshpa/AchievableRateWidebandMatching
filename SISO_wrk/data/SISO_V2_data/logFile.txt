@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 570.shp Jul 18 2022, MINT version 5
+    (64-bit windows built: Tue Jul 19, 2022 06:26:23 +0000)
+
+
+***** Simulation started at Fri Aug 25 12:26:35 2023
+      Running on host: "curaco"
+      In Directory: "Q:\My Drive\Academics\Fall 21\Research\Codes\Wideband circuit theory of communication\Github\SISO_wrk\data"
+      Process ID: 42312
+
+
+SP SP1[1] <SISO_lib:SISO_V2:schematic>   freq=(4 GHz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.96 seconds.
+

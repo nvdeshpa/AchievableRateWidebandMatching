@@ -1,0 +1,594 @@
+
+hpeesofsim (*) 550.shp Jul 26 2021, MINT version 5
+    (64-bit linux built: Tue Jul 27, 2021 02:41:16 +0000)
+
+
+***** Simulation started at Mon, May 15 2023 05:13:19 -0400
+      Running on host: "grendel31.ece.ncsu.edu"
+      In Directory: "/mnt/ncsudrive/n/nvdeshpa/SISO_wrk/data"
+      User: "nvdeshpa", Process ID: 28494
+
+
+OPTIM Optim1[1] <SISO_lib:SISO_V2:schematic>  optIter=(0->1600)
+
+SP Optim1[1].SP1[0] <SISO_lib:SISO_V2:schematic>  optIter=0  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 2.18396141209658
+  Optimization variables:
+    C1 = 1.01
+    C2 = 1.01
+    C3 = 1.01
+    L1 = 2.533
+    L2 = 2.533
+    L3 = 2.533
+
+SP Optim1[1].SP1[2] <SISO_lib:SISO_V2:schematic>  optIter=2  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #2:
+  CurrentEF: 1.2948981947986
+  Optimization variables:
+    C1 = 814.7819945651548e-03
+    C2 = 1.117582339505601
+    C3 = 906.6297410920631e-03
+    L1 = 1.759593219919091
+    L2 = 2.199994875734371
+    L3 = 2.701040430091771
+
+SP Optim1[1].SP1[5] <SISO_lib:SISO_V2:schematic>  optIter=5  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #5:
+  CurrentEF: 1.17747326790758
+  Optimization variables:
+    C1 = 823.5387593933625e-03
+    C2 = 1.2375654905295
+    C3 = 926.2801080709653e-03
+    L1 = 1.583519571289145
+    L2 = 1.611976501819036
+    L3 = 2.177738891181251
+
+SP Optim1[1].SP1[14] <SISO_lib:SISO_V2:schematic>  optIter=14  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #14:
+  CurrentEF: 1.12164427124365
+  Optimization variables:
+    C1 = 856.54588095268e-03
+    C2 = 1.239229774210433
+    C3 = 938.2282211307045e-03
+    L1 = 1.292614764212662
+    L2 = 1.565437710542725
+    L3 = 2.427717821015207
+
+SP Optim1[1].SP1[16] <SISO_lib:SISO_V2:schematic>  optIter=16  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 1.09778450769643
+  Optimization variables:
+    C1 = 867.8849649425053e-03
+    C2 = 1.273744993932036
+    C3 = 958.8852614589762e-03
+    L1 = 1.304019546976849
+    L2 = 1.566953614867756
+    L3 = 2.622102657394745
+
+SP Optim1[1].SP1[22] <SISO_lib:SISO_V2:schematic>  optIter=22  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #22:
+  CurrentEF: 1.0675789326035
+  Optimization variables:
+    C1 = 862.1714085801354e-03
+    C2 = 1.280294289364428
+    C3 = 995.1058074016891e-03
+    L1 = 1.284658415294764
+    L2 = 1.553417185379665
+    L3 = 2.603641006281509
+
+SP Optim1[1].SP1[31] <SISO_lib:SISO_V2:schematic>  optIter=31  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #31:
+  CurrentEF: 0.942819792080946
+  Optimization variables:
+    C1 = 854.1059107175862e-03
+    C2 = 1.287772512671828
+    C3 = 1.045580043782022
+    L1 = 1.377956220559388
+    L2 = 1.427171756215338
+    L3 = 2.405925985581316
+
+SP Optim1[1].SP1[35] <SISO_lib:SISO_V2:schematic>  optIter=35  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #35:
+  CurrentEF: 0.92185922207922
+  Optimization variables:
+    C1 = 792.4177762776377e-03
+    C2 = 1.201280228591715
+    C3 = 911.3145773038452e-03
+    L1 = 1.271307370431092
+    L2 = 1.414489133222689
+    L3 = 2.528674452682168
+
+SP Optim1[1].SP1[36] <SISO_lib:SISO_V2:schematic>  optIter=36  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #36:
+  CurrentEF: 0.837797634532508
+  Optimization variables:
+    C1 = 722.0977612389905e-03
+    C2 = 1.168122350199514
+    C3 = 968.0118129816799e-03
+    L1 = 1.486586149298623
+    L2 = 1.413823943314122
+    L3 = 2.441913213727865
+
+SP Optim1[1].SP1[40] <SISO_lib:SISO_V2:schematic>  optIter=40  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #40:
+  CurrentEF: 0.798506824632219
+  Optimization variables:
+    C1 = 769.0674574174309e-03
+    C2 = 1.174030972597861
+    C3 = 982.8897910722654e-03
+    L1 = 1.356226401435381
+    L2 = 1.33661821565814
+    L3 = 2.462139011059215
+
+SP Optim1[1].SP1[41] <SISO_lib:SISO_V2:schematic>  optIter=41  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #41:
+  CurrentEF: 0.79534641540597
+  Optimization variables:
+    C1 = 726.3678740257578e-03
+    C2 = 1.178932730657753
+    C3 = 947.1794968681648e-03
+    L1 = 1.359285878554578
+    L2 = 1.381424701661325
+    L3 = 2.363498387905813
+
+SP Optim1[1].SP1[43] <SISO_lib:SISO_V2:schematic>  optIter=43  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #43:
+  CurrentEF: 0.743966490189088
+  Optimization variables:
+    C1 = 666.2712855210672e-03
+    C2 = 1.119067304401045
+    C3 = 908.2950122847051e-03
+    L1 = 1.439786861941525
+    L2 = 1.352348508151514
+    L3 = 2.335155137126773
+
+SP Optim1[1].SP1[50] <SISO_lib:SISO_V2:schematic>  optIter=50  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #50:
+  CurrentEF: 0.737715200740946
+  Optimization variables:
+    C1 = 691.004322136205e-03
+    C2 = 1.116012477879027
+    C3 = 886.533834814321e-03
+    L1 = 1.323373578352333
+    L2 = 1.321199220700102
+    L3 = 2.311628125903682
+
+SP Optim1[1].SP1[53] <SISO_lib:SISO_V2:schematic>  optIter=53  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #53:
+  CurrentEF: 0.73500098084276
+  Optimization variables:
+    C1 = 623.2747330702486e-03
+    C2 = 1.114792051168776
+    C3 = 898.2986868901537e-03
+    L1 = 1.41399774129844
+    L2 = 1.37862586787081
+    L3 = 2.342775532373896
+
+SP Optim1[1].SP1[55] <SISO_lib:SISO_V2:schematic>  optIter=55  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #55:
+  CurrentEF: 0.696269503485891
+  Optimization variables:
+    C1 = 535.2285780093043e-03
+    C2 = 1.106792303948288
+    C3 = 941.7203300624547e-03
+    L1 = 1.479511587252391
+    L2 = 1.394649382183465
+    L3 = 2.345405927307517
+
+SP Optim1[1].SP1[58] <SISO_lib:SISO_V2:schematic>  optIter=58  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #58:
+  CurrentEF: 0.658478813566376
+  Optimization variables:
+    C1 = 518.9338767762683e-03
+    C2 = 1.036878248612043
+    C3 = 943.3314995740112e-03
+    L1 = 1.473885513206522
+    L2 = 1.357035823026922
+    L3 = 2.305397390613241
+
+SP Optim1[1].SP1[63] <SISO_lib:SISO_V2:schematic>  optIter=63  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #63:
+  CurrentEF: 0.631095145457786
+  Optimization variables:
+    C1 = 520.5557866905519e-03
+    C2 = 965.6248331373609e-03
+    C3 = 943.283927705126e-03
+    L1 = 1.445425116346703
+    L2 = 1.301315660106966
+    L3 = 2.32650841435869
+
+SP Optim1[1].SP1[68] <SISO_lib:SISO_V2:schematic>  optIter=68  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #68:
+  CurrentEF: 0.625837127991938
+  Optimization variables:
+    C1 = 538.1851828275867e-03
+    C2 = 922.6827493048644e-03
+    C3 = 926.9244498298786e-03
+    L1 = 1.413504639239012
+    L2 = 1.282338862588892
+    L3 = 2.351120042831067
+
+SP Optim1[1].SP1[69] <SISO_lib:SISO_V2:schematic>  optIter=69  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #69:
+  CurrentEF: 0.594065356356317
+  Optimization variables:
+    C1 = 533.4551919948993e-03
+    C2 = 950.0779804019104e-03
+    C3 = 959.4122794092687e-03
+    L1 = 1.348528128825757
+    L2 = 1.273406234089089
+    L3 = 2.362391383516163
+
+SP Optim1[1].SP1[70] <SISO_lib:SISO_V2:schematic>  optIter=70  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #70:
+  CurrentEF: 0.586981732411296
+  Optimization variables:
+    C1 = 537.5701245307073e-03
+    C2 = 1.001287689563388
+    C3 = 1.014964888170274
+    L1 = 1.277342927748825
+    L2 = 1.312695155408399
+    L3 = 2.3762159563453
+
+SP Optim1[1].SP1[78] <SISO_lib:SISO_V2:schematic>  optIter=78  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #78:
+  CurrentEF: 0.582467235098838
+  Optimization variables:
+    C1 = 528.0445527262532e-03
+    C2 = 1.01340236897749
+    C3 = 1.000266144129361
+    L1 = 1.295217841390355
+    L2 = 1.298377373436311
+    L3 = 2.357413782746
+
+SP Optim1[1].SP1[79] <SISO_lib:SISO_V2:schematic>  optIter=79  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #79:
+  CurrentEF: 0.581130903434975
+  Optimization variables:
+    C1 = 522.821387248429e-03
+    C2 = 1.020799622573504
+    C3 = 1.003484601718221
+    L1 = 1.304291188955065
+    L2 = 1.295684790872615
+    L3 = 2.342137158114006
+
+SP Optim1[1].SP1[84] <SISO_lib:SISO_V2:schematic>  optIter=84  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #84:
+  CurrentEF: 0.581019160576496
+  Optimization variables:
+    C1 = 523.9842487207532e-03
+    C2 = 1.022986414732082
+    C3 = 1.005160468950351
+    L1 = 1.303033675896357
+    L2 = 1.297108346918784
+    L3 = 2.355853304235672
+
+SP Optim1[1].SP1[87] <SISO_lib:SISO_V2:schematic>  optIter=87  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #87:
+  CurrentEF: 0.57974716645341
+  Optimization variables:
+    C1 = 516.4463151084546e-03
+    C2 = 1.032166060601804
+    C3 = 1.013724916366739
+    L1 = 1.308423003967554
+    L2 = 1.298911445745077
+    L3 = 2.334579447155112
+
+SP Optim1[1].SP1[91] <SISO_lib:SISO_V2:schematic>  optIter=91  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #91:
+  CurrentEF: 0.566140711706301
+  Optimization variables:
+    C1 = 511.5403809138779e-03
+    C2 = 1.02875480376484
+    C3 = 1.011837037159557
+    L1 = 1.290434952182229
+    L2 = 1.276185083530025
+    L3 = 2.333305615296354
+
+SP Optim1[1].SP1[102] <SISO_lib:SISO_V2:schematic>  optIter=102  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #102:
+  CurrentEF: 0.563110996442571
+  Optimization variables:
+    C1 = 508.5392691466238e-03
+    C2 = 1.0281862196826
+    C3 = 1.018560431515975
+    L1 = 1.293344214764347
+    L2 = 1.272928723346209
+    L3 = 2.351727065271989
+
+SP Optim1[1].SP1[117] <SISO_lib:SISO_V2:schematic>  optIter=117  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #117:
+  CurrentEF: 0.562719047904825
+  Optimization variables:
+    C1 = 508.4535200357015e-03
+    C2 = 1.026724251071018
+    C3 = 1.022675061510297
+    L1 = 1.292809630304227
+    L2 = 1.272848703732631
+    L3 = 2.374766529344297
+
+SP Optim1[1].SP1[118] <SISO_lib:SISO_V2:schematic>  optIter=118  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #118:
+  CurrentEF: 0.559906102288053
+  Optimization variables:
+    C1 = 510.2048171608553e-03
+    C2 = 1.02883946641405
+    C3 = 1.022326887406273
+    L1 = 1.282274187664463
+    L2 = 1.270009066238547
+    L3 = 2.368817300975825
+
+SP Optim1[1].SP1[119] <SISO_lib:SISO_V2:schematic>  optIter=119  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #119:
+  CurrentEF: 0.559656443207115
+  Optimization variables:
+    C1 = 511.4772802010048e-03
+    C2 = 1.029491897009963
+    C3 = 1.020753020999708
+    L1 = 1.278379356275082
+    L2 = 1.270569881577616
+    L3 = 2.348444153994313
+
+SP Optim1[1].SP1[123] <SISO_lib:SISO_V2:schematic>  optIter=123  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #123:
+  CurrentEF: 0.557844102896551
+  Optimization variables:
+    C1 = 509.836062739659e-03
+    C2 = 1.028958239886591
+    C3 = 1.025126838342592
+    L1 = 1.275621208569804
+    L2 = 1.270560114376192
+    L3 = 2.359958563027863
+
+SP Optim1[1].SP1[133] <SISO_lib:SISO_V2:schematic>  optIter=133  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #133:
+  CurrentEF: 0.557317606246014
+  Optimization variables:
+    C1 = 509.320461826376e-03
+    C2 = 1.028678462946993
+    C3 = 1.025265624403076
+    L1 = 1.273287069361425
+    L2 = 1.270823693249427
+    L3 = 2.359803925605604
+
+SP Optim1[1].SP1[142] <SISO_lib:SISO_V2:schematic>  optIter=142  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #142:
+  CurrentEF: 0.557132392956208
+  Optimization variables:
+    C1 = 508.7002384659086e-03
+    C2 = 1.029241260101999
+    C3 = 1.02392144292832
+    L1 = 1.272395286662434
+    L2 = 1.270254939323515
+    L3 = 2.359246169140367
+
+SP Optim1[1].SP1[145] <SISO_lib:SISO_V2:schematic>  optIter=145  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #145:
+  CurrentEF: 0.556770979515846
+  Optimization variables:
+    C1 = 508.1774655934247e-03
+    C2 = 1.027998804166742
+    C3 = 1.024451016667051
+    L1 = 1.271994459445015
+    L2 = 1.27033702174224
+    L3 = 2.359634340265805
+
+SP Optim1[1].SP1[248] <SISO_lib:SISO_V2:schematic>  optIter=248  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #248:
+  CurrentEF: 0.556323759275994
+  Optimization variables:
+    C1 = 506.7268805362335e-03
+    C2 = 1.028241448710318
+    C3 = 1.025207864071051
+    L1 = 1.271296120662155
+    L2 = 1.270774871977535
+    L3 = 2.360126158940055
+
+SP Optim1[1].SP1[260] <SISO_lib:SISO_V2:schematic>  optIter=260  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #260:
+  CurrentEF: 0.556306323979246
+  Optimization variables:
+    C1 = 506.4695269952756e-03
+    C2 = 1.028244597492766
+    C3 = 1.024905214189648
+    L1 = 1.270080137927566
+    L2 = 1.271264742402563
+    L3 = 2.361892033081082
+
+SP Optim1[1].SP1[269] <SISO_lib:SISO_V2:schematic>  optIter=269  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #269:
+  CurrentEF: 0.55593498726237
+  Optimization variables:
+    C1 = 505.8420865831899e-03
+    C2 = 1.027603592724727
+    C3 = 1.024750068994913
+    L1 = 1.270552225509908
+    L2 = 1.270467234993058
+    L3 = 2.35976766467502
+
+SP Optim1[1].SP1[299] <SISO_lib:SISO_V2:schematic>  optIter=299  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #299:
+  CurrentEF: 0.555816145270083
+  Optimization variables:
+    C1 = 505.6804420205037e-03
+    C2 = 1.027568401625151
+    C3 = 1.024808396124036
+    L1 = 1.270572325192323
+    L2 = 1.270232269461866
+    L3 = 2.360157419196532
+
+SP Optim1[1].SP1[402] <SISO_lib:SISO_V2:schematic>  optIter=402  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #402:
+  CurrentEF: 0.555708264219517
+  Optimization variables:
+    C1 = 505.5599784078663e-03
+    C2 = 1.027693870815563
+    C3 = 1.024800247442109
+    L1 = 1.270320412684516
+    L2 = 1.270037156949316
+    L3 = 2.361132130009577
+
+SP Optim1[1].SP1[507] <SISO_lib:SISO_V2:schematic>  optIter=507  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #507:
+  CurrentEF: 0.555681333321394
+  Optimization variables:
+    C1 = 505.4628549946191e-03
+    C2 = 1.027658508964155
+    C3 = 1.024683654006079
+    L1 = 1.270137432979535
+    L2 = 1.270044464707742
+    L3 = 2.361242708576345
+
+SP Optim1[1].SP1[551] <SISO_lib:SISO_V2:schematic>  optIter=551  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #551:
+  CurrentEF: 0.55568068970158
+  Optimization variables:
+    C1 = 505.5299485567509e-03
+    C2 = 1.027862240267419
+    C3 = 1.024826069920432
+    L1 = 1.270194293626006
+    L2 = 1.270025891283021
+    L3 = 2.3610886108567
+
+SP Optim1[1].SP1[682] <SISO_lib:SISO_V2:schematic>  optIter=682  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #682:
+  CurrentEF: 0.555625583570628
+  Optimization variables:
+    C1 = 505.4747885940003e-03
+    C2 = 1.028084958890839
+    C3 = 1.025025393465811
+    L1 = 1.270124428856833
+    L2 = 1.270042619910078
+    L3 = 2.360672934668045
+
+SP Optim1[1].SP1[709] <SISO_lib:SISO_V2:schematic>  optIter=709  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #709:
+  CurrentEF: 0.555569618094191
+  Optimization variables:
+    C1 = 505.3113314934599e-03
+    C2 = 1.028198969489694
+    C3 = 1.02511707989714
+    L1 = 1.270131416512006
+    L2 = 1.27000786083065
+    L3 = 2.360719121557072
+
+SP Optim1[1].SP1[717] <SISO_lib:SISO_V2:schematic>  optIter=717  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #717:
+  CurrentEF: 0.555568680852156
+  Optimization variables:
+    C1 = 505.2202488317213e-03
+    C2 = 1.028400787681792
+    C3 = 1.025331351288172
+    L1 = 1.270221941254969
+    L2 = 1.270127490393085
+    L3 = 2.360427292517547
+
+SP Optim1[1].SP1[731] <SISO_lib:SISO_V2:schematic>  optIter=731  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #731:
+  CurrentEF: 0.55554543460269
+  Optimization variables:
+    C1 = 505.3445189647385e-03
+    C2 = 1.028465518429317
+    C3 = 1.025533610403878
+    L1 = 1.270168034467146
+    L2 = 1.270155869094487
+    L3 = 2.359933084507777
+
+SP Optim1[1].SP1[733] <SISO_lib:SISO_V2:schematic>  optIter=733  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #733:
+  CurrentEF: 0.55552943067391
+  Optimization variables:
+    C1 = 505.2449746082289e-03
+    C2 = 1.028691671184272
+    C3 = 1.025854624562043
+    L1 = 1.270208515975385
+    L2 = 1.270334487862823
+    L3 = 2.359495229626665
+
+SP Optim1[1].SP1[881] <SISO_lib:SISO_V2:schematic>  optIter=881  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #881:
+  CurrentEF: 0.555428055862818
+  Optimization variables:
+    C1 = 505.2134311659242e-03
+    C2 = 1.027996716415195
+    C3 = 1.026319645414014
+    L1 = 1.270769953527361
+    L2 = 1.270199538461905
+    L3 = 2.359279371225719
+
+SP Optim1[1].SP1[1023] <SISO_lib:SISO_V2:schematic>  optIter=1023  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #1023:
+  CurrentEF: 0.555420495268152
+  Optimization variables:
+    C1 = 505.4400853280898e-03
+    C2 = 1.027722318791413
+    C3 = 1.026584806676327
+    L1 = 1.270626427026767
+    L2 = 1.270347597212071
+    L3 = 2.359033299850406
+
+SP Optim1[1].SP1[1031] <SISO_lib:SISO_V2:schematic>  optIter=1031  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #1031:
+  CurrentEF: 0.555183400345822
+  Optimization variables:
+    C1 = 505.8171189624443e-03
+    C2 = 1.026954906278079
+    C3 = 1.027279783003427
+    L1 = 1.270056970345317
+    L2 = 1.270310885662798
+    L3 = 2.358741280939149
+
+SP Optim1[1].SP1[1148] <SISO_lib:SISO_V2:schematic>  optIter=1148  freq=(2 GHz->8 GHz)
+
+Iteration/Trial #1148:
+  CurrentEF: 0.55516618344214
+  Optimization variables:

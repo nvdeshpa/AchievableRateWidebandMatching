@@ -1,0 +1,65 @@
+; Top Design: "SISO_lib:SISO_V2:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="SISO_lib:SISO_V2:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+
+Rref=50
+
+c=300000000
+
+a=0.0043
+
+L1=1.31159 opt{ 0.9 to 2.7 }
+
+L3=1.08027 opt{ 0.9 to 2.7 }
+
+C1=0.360162 opt{ 0.36 to 1.08 }
+
+L2=1.20749 opt{ 0.9 to 2.7 }
+
+C2=0.777538 opt{ 0.36 to 1.08 }
+
+C3=1.07345 opt{ 0.36 to 1.08 }
+C:C1  N__6 N__5 C=(a/(c*Rref)) F 
+C:C2  N__7 0 C=C1 pF 
+L:L4  N__2 N__3 L=L3 nH Noise=yes  
+Port:Term2  N__7 0 Num=2 Z=50 Ohm Noise=yes 
+R:R1  N__5 0 R=Rref Ohm Noise=yes 
+L:L1  N__5 0 L=(a/c*Rref) H R=0 Noise=yes  
+C:C5  N__3 0 C=C4 pF 
+C:C3  N__4 0 C=C2 pF 
+L:L3  N__4 N__2 L=L2 nH Noise=yes  
+Port:Term3  N__9 0 Num=3 Z=50 Ohm Noise=yes 
+C:C4  N__2 0 C=C3 pF 
+aele Smeas={S11};
+aele Sv={{S22, S23}, {S32, S33}};
+aele Eq_Tx=(sqr(abs(Sv(2,1)))/sqr(abs(1- Sv(2,2)*Smeas)))*(1-sqr(abs(Smeas)));
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=4 GHz Stop=10 GHz Step=3 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+
+Optim:"Optim1" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=1600 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+Port:Term1  N__6 0 Num=1 Z=50 Ohm Noise=yes 
+L:L2  N__7 N__4 L=L1 nH Noise=yes  
+L:L5  N__3 N__9 L=L4 nH Noise=yes  
+
+L4=2.13565 opt{ 0.9 to 2.7 }
+
+C4=0.788908 opt{ 0.36 to 1.08 }
+OptimGoal:OptimGoal2 Expr="Eq_Tx" SimInstanceName="SP1" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="GreaterThan" Min=0.7183 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=4.9 GHz IndepMax[1]=9.1 GHz 

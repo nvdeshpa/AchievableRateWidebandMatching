@@ -1,0 +1,24 @@
+
+hpeesofsim (*) 550.shp Jul 26 2021, MINT version 5
+    (64-bit linux built: Tue Jul 27, 2021 02:41:16 +0000)
+
+
+***** Simulation started at Mon, May 15 2023 04:17:04 -0400
+      Running on host: "grendel31.ece.ncsu.edu"
+      In Directory: "/mnt/ncsudrive/n/nvdeshpa/SISO_wrk/data"
+      User: "nvdeshpa", Process ID: 16881
+
+
+SP SP1[1] <SISO_lib:short_dipole:schematic>   freq=(2 GHz->8 GHz)
+
+
+Resource usage:
+    User time                 =     0.70 seconds.
+    System time               =     0.30 seconds.
+    Total CPU time            =     1.00 seconds.
+    Simulation stopwatch time =     0.40 seconds.
+    Total stopwatch time      =    14.48 seconds.
+
+    Physical memory used: 95.2 MBytes.
+    Incremental virtual memory (data only) used:  34.2 MBytes.
+
